@@ -1,18 +1,17 @@
-# **App Name**: Public Ledger Hub
+# **App Name**: Opengov | General Ledger
 
 ## Core Features:
 
-- Ledger Display: Display a read-only ledger of transactions.
-- Transaction Filtering: Allow filtering of transactions by category, date, and amount.
-- Statistical Overview: Provide summary statistics for key metrics. 
-- Anomaly Detection: Highlight potentially anomalous transactions using an AI analysis tool.
+- Configuration Block Display: Displays six clickable blocks representing key configuration areas: Segments, Segment Codes, Hierarchies, Combination Rules, Account Access Control, and Settings.
+- Responsive Layout: Adapts the grid layout of the blocks to fit different screen sizes, ensuring usability on various devices.
+- Static Link Placeholder: Treats each block as a static link or placeholder, with the actual navigation behavior to be implemented later.
 
 ## Style Guidelines:
 
-- Primary color: Calm, professional blue (#4681C4), reflecting stability and trust.
-- Background color: Soft, muted blue-gray (#D1DDE9), to provide a clean, readable backdrop.
-- Accent color: Understated, clean green (#77A64B), to highlight important data.
-- Body and headline font: 'Inter', sans-serif, for a modern, clean, objective style that is easy to read.
-- Simple, clear icons to represent transaction types and ledger functions.
-- Clean, tabular layout for ledger data, optimized for readability.
-- Subtle transitions for filtering and sorting actions.
+- Deep indigo (#3F51B5) to evoke trust and stability, aligning with the serious nature of financial applications. It reflects the structured environment of the OpenGov | General Ledger application.
+- Very light gray (#F0F2F5), providing a neutral backdrop that enhances the visibility of the indigo and other UI elements.
+- A muted blue (#7986CB), subtly draws attention to interactive elements without overpowering the primary color.
+- Use clear and professional DM Sans fonts for labels and menu items to ensure readability.
+- Implement a balanced grid layout for the six clickable blocks to create a visually appealing and intuitive interface.
+- Employ minimalist icons within each block to enhance recognition and guide users to the relevant configuration area.
+- Use subtle hover effects on the blocks to provide feedback and enhance interactivity.
